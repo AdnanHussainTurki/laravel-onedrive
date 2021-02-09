@@ -1,0 +1,44 @@
+{
+    "name": "adnanhussainturki/laravel-onedrive",
+    "description": "Flysystem Adapter for the OneDrive API",
+    "keywords": [
+        "flysystem-onedrive",
+        "flysystem",
+        "onedrive",
+        "api"
+    ],
+    "homepage": "https://github.com/AdnanHussainTurki/laravel-onedrive",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adnan Hussain Turki",
+            "email": "adnanhussainturki@gmail.com",
+            "homepage": "https://www.myphpnotes.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "league/flysystem": "^1.0",
+        "microsoft/microsoft-graph": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "myPHPnotes\\Fly\\OneDrive\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "myPHPnotes\\Fly\\OneDrive\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
